@@ -324,8 +324,7 @@ end
 
 ## Incineration of InboundEmails
 
-By default, an InboundEmail that has been successfully processed will be
-incinerated after 30 days. This ensures you're not holding on to people's data
+By default, an InboundEmail that has been processed will be incinerated after 30 days, regardless of whether the procession succeeds or fails. This ensures you're not holding on to people's data
 willy-nilly after they may have canceled their accounts or deleted their
 content. The intention is that after you've processed an email, you should have
 extracted all the data you needed and turned it into domain models and content
